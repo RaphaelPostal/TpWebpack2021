@@ -1,0 +1,11 @@
+
+
+/* (B) CARDS */
+.mem-card {
+  padding: 10px;
+  cursor: pointer;
+  background: #e5e5e5;
+}
+.mem-card.open { background: #fea; }
+.mem-card.right { background: #b3ffc0; }
+.mem-card.wrong { background: #ffb6b6; }

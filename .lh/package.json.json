@@ -1,0 +1,18 @@
+{
+    "sourceFile": "package.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1638477782246,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1638477782246,
+            "name": "Commit-0",
+            "content": "{\n  \"name\": \"tp3\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"dev\": \"webpack --config webpack.dev.config.js\",\n    \"prod\": \"webpack --config webpack.prod.config.js\"\n  },\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"devDependencies\": {\n    \"css-loader\": \"^6.5.1\",\n    \"file-loader\": \"^6.2.0\",\n    \"mini-css-extract-plugin\": \"^2.4.5\",\n    \"url-loader\": \"^4.1.1\",\n    \"webpack\": \"^5.59.0\",\n    \"webpack-cli\": \"^4.9.1\"\n  },\n  \"dependencies\": {\n    \"copy-webpack-plugin\": \"^10.0.0\",\n    \"imagemin-mozjpeg\": \"^9.0.0\",\n    \"imagemin-webpack-plugin\": \"^2.4.2\",\n    \"jquery\": \"^3.6.0\",\n    \"style-loader\": \"^3.3.1\"\n  }\n}\n"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "webpack.dev.config.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1638477672248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1638477672248,
+            "name": "Commit-0",
+            "content": "const path = require('path');\r\nconst webpack = require('webpack');\r\nconst MiniCssExtractPlugin = require(\"mini-css-extract-plugin\");\r\n\r\nmodule.exports = {\r\n  mode : 'development',\r\n  watch : true,\r\n  entry: './src/index.js',\r\n  output: {\r\n    filename: 'main.js',\r\n    path: path.resolve(__dirname, 'dist'),\r\n  },\r\n\r\n  plugins : [\r\n  new webpack.ProvidePlugin({\r\n            $: \"jquery\",\r\n            jQuery: \"jquery\"\r\n        }),\r\n  new MiniCssExtractPlugin()    \r\n  ],\r\n\r\n  module : {\r\n    rules: [\r\n      {\r\n        test: /\\.css$/i,\r\n        use: [\"style-loader\", MiniCssExtractPlugin.loader, \"css-loader\"],\r\n      },\r\n      {\r\n        test: /\\.(png|svg|jpg|jpeg|gif)$/i,\r\n        type: 'asset/resource',   \r\n      },\r\n    ],\r\n  }\r\n\r\n};"
+        }
+    ]
+}
