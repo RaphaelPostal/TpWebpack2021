@@ -1,5 +1,3 @@
-import css from './css/style.css';
-
 require ('jquery')
 
 $(function(){
